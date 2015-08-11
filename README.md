@@ -37,3 +37,9 @@ var str = tr.readFromTo(10,15); //this call will not change the cursor's positio
 ```
 var str = tr.read(); //this call will put the cursor at the end of file
 ```
+
+#Return an array of last  "10" lines
+
+```
+var lastLines = tr.getLastLines(10);
+```
